@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style2.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="frame">
+        <header>
+            <h1 class="font">Weather Dashboard</h1>
+        </header>
+
+        <section class="align1">
+            <input type="text" id="city-search" placeholder="Enter city">
+            <button id="search-button">Search</button>
+        </section>
+
+        <main class = "weather-details">
+            <div class="location-details">
+                <p class = "city-name">Thiruporur,IN</p>
+                <p class = "humidity-val">Humidity -</p>
+                <p class = "aqi-val"> AQI -</p>
+            </div>
+            <div class="temp-display">
+                <p class="temperature">36°C</p>
+            </div>
+        </main>
+
+        <footer class="dashboard-footer">
+            <a href="#" class="footer-link">About</a>
+            <a href="#" class="footer-link">Contact</a>
+        </footer>
+    </div>
+    <script src="script.js" defer></script><!-- defer is used so that html is parsed before the js-->
+</body>
+</html>

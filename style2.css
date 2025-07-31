@@ -1,0 +1,109 @@
+body{
+    background-color: #09F4D9;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    color: black;
+}
+
+.frame{
+    background-color: #F5F55F;
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.font{
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.align1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.align1 input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    outline: none;
+}
+
+.align1 input[type="text"]::placeholder {
+    color: #555;
+}
+
+.align1 button {
+    padding: 10px 15px;
+    background-color: #8BF353;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.align1 button:hover {
+    background-color: #6BBE00;
+}
+
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 20px 0;
+}
+
+.weather-details .location-details p{
+    margin:5px 0;
+    font-size: large;
+}
+.weather-details .city-name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.weather-details .temperature {
+    font-size: 5em;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.dashboard-footer {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    border-top: 2px solid black;
+    padding-top: 15px;
+    margin-top: auto;
+}
+
+.dashboard-footer .footer-link {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.dashboard-footer .footer-link:hover{
+    text-decoration: underline;
+}
